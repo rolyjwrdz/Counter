@@ -22,3 +22,19 @@ function displayCount() {
         displayCount(); // Display the count
         checkCountValue(); // Check count value and display messages
       }
+
+      function resetCount() {
+        count = 0;           // Reset the count back to 0
+        displayCount();      // Update the display
+    }
+   
+    function resetCount() {
+        let confirmReset = confirm("Are you sure you want to reset the count?");
+        if (confirmReset) {
+            count = 0;          // Reset the count
+            displayCount();     // Update display
+            alert("Count has been reset to 0!")
+        }
+        // if Cancel is pressed, nothing happens
+    }
+    
