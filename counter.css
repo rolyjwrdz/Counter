@@ -1,0 +1,59 @@
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #ff6a9b, #ff9e53);
+height: 100vh;
+margin: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+h1 {
+margin-bottom: 10px;
+font-size: 2.2rem;
+text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.card {
+background: rgba(255, 255, 255, 0.15);
+padding: 25px 35px;
+border-radius: 15px;
+text-align: center;
+box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+backdrop-filter: blur(10px);
+}
+
+#countDisplay {
+font-size: 3rem;
+font-weight: bold;
+}
+
+button {
+background: white;
+border: none;
+padding: 12px 22px;
+font-size: 1.1rem;
+border-radius: 10px;
+cursor: pointer;
+margin: 10px;
+font-weight: bold;
+transition: 0.2s ease-in-out;
+}
+
+button:hover {
+transform: scale(1.05);
+background: #f1f1f1;
+}
+
+button:active {
+transform: scale(0.95);
+}
+
+hr {
+width: 80%;
+border: 0;
+border-top: 1px solid rgba(255,255,255,0.4);
+margin: 20px 0;
+}
